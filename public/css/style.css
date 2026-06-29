@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:#111;
+    border-bottom:1px solid #222;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#FFD400;
+}
+
+.logo span{
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#FFD400;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+}
+
+.login,
+.register{
+    text-decoration:none;
+    padding:10px 22px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.login{
+    border:2px solid #FFD400;
+    color:#FFD400;
+}
+
+.register{
+    background:#FFD400;
+    color:black;
+}
+.hero{
+    height:85vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:0 10%;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-content span{
+    color:#FFD400;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    color:#bdbdbd;
+    font-size:20px;
+    line-height:1.7;
+}
+
+.hero-buttons{
+    margin-top:40px;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.buy-btn,
+.create-btn{
+    text-decoration:none;
+    padding:16px 38px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.buy-btn{
+    background:#FFD400;
+    color:black;
+}
+
+.buy-btn:hover{
+    transform:translateY(-4px);
+}
+
+.create-btn{
+    border:2px solid #FFD400;
+    color:#FFD400;
+}
+
+.create-btn:hover{
+    background:#FFD400;
+    color:black;
+}
