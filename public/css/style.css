@@ -134,3 +134,58 @@ body{
     background:#FFD400;
     color:black;
 }
+.features{
+
+    display:flex;
+    justify-content:center;
+    gap:35px;
+
+    padding:80px 8%;
+
+    flex-wrap:wrap;
+}
+
+.feature-card{
+
+    background:#161616;
+
+    width:320px;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    border:1px solid #222;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#FFD400;
+}
+
+.icon{
+
+    font-size:45px;
+
+    margin-bottom:20px;
+}
+
+.feature-card h2{
+
+    margin-bottom:15px;
+
+    color:#FFD400;
+}
+
+.feature-card p{
+
+    color:#c8c8c8;
+
+    line-height:1.8;
+}
